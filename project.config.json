@@ -40,6 +40,10 @@
 		"miniprogram": {
 			"current": -1,
 			"list": []
-		}
+		},
+    	"miniprograms": {
+      "current": -1,
+      "list": []
+    }
 	}
 }
