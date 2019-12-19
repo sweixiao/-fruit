@@ -1,8 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "image"
+    "pages/logs/logs"
   ],
   "tabBar": {
     "color": "#7A7E83",
