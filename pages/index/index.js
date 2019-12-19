@@ -1,54 +1,23 @@
-//index.js
-//获取应用实例
-const app = getApp()
-
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    inmoney:3000,
+    row1: ""
   },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
+  
   onLoad: function () {
-    if (app.globalData.userInfo) {
+    var list5 = this.data.inmoney;
+    var max = this.data.inmoney;
+    console.log(max)
+    var unit =  max/100000;
+    console.log(unit)
+    if (unit>1){
       this.setData({
-        userInfo: app.globalData.userInfo,
-        hasUserInfo: true
+        row1: 200 * unit,
       })
-    } else if (this.data.canIUse){
-      // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
-      // 所以此处加入 callback 以防止这种情况
-      app.userInfoReadyCallback = res => {
-        this.setData({
-          userInfo: res.userInfo,
-          hasUserInfo: true
-        })
-      }
-    } else {
-      // 在没有 open-type=getUserInfo 版本的兼容处理
-      wx.getUserInfo({
-        success: res => {
-          app.globalData.userInfo = res.userInfo
-          this.setData({
-            userInfo: res.userInfo,
-            hasUserInfo: true
-          })
-        }
+    }else{
+      this.setData({
+        row1: 400 * unit,
       })
     }
-  },
-  getUserInfo: function(e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
-    })
   }
 })
