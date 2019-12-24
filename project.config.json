@@ -37,13 +37,13 @@
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"miniprograms": {
 			"current": -1,
 			"list": []
 		},
-    	"miniprograms": {
-      "current": -1,
-      "list": []
-    }
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
 	}
 }
