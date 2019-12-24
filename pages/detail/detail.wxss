@@ -1,0 +1,46 @@
+.detail{
+  border-top: 1px solid #ccc;
+}
+.detail-title{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 10rpx 0;
+  border-bottom: 1px solid #ccc;
+}
+.detail-title image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 10rpx;
+}
+.main-header{
+  display: flex;
+  height: 240rpx;
+  line-height: 240rpx;
+  border-bottom: 1px solid #ccc;
+}
+.header-left{
+  display: flex;
+  font-size: 26rpx;
+  align-items: center;
+}
+.header-right{
+  flex: 2;
+  text-align: center;
+}
+.header-left input{
+  width: 200rpx;
+  border: 1px solid #ccc;
+}
+.tui-picker-detail{
+  width:200rpx;
+  height:50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  background: #fff;
+  font-size: 26rpx;
+  border: 1px solid rgba(229,229,229,1);
+  font-weight:400;
+  color:rgba(102,102,102,1);
+}

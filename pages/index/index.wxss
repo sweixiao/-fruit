@@ -1,10 +1,54 @@
 /**index.wxss**/
 .index{
-  border-top: 1px solid #ccc;
+
+}
+.search-box{
+  display: flex;
+  margin-top: 10rpx;
+  margin-left: 70rpx;
+  font-size: 26rpx;
+}
+.search-left{
+  display: flex;
+  width: 500rpx;
+  height: 50rpx;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5rpx;
+  background: #ccc;
+}
+.search-left input{
+  margin-left: 10rpx;
+}
+.search-left image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 10rpx;
+}
+.search-btn{
+  width: 80rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  border: 1px solid #ccc;
+   margin-left: 20rpx;
+   border-radius: 5rpx;
 }
 .list{
-  height: 50px;
-  margin: 10px 15px
+  display: flex;
+  height: 120px;
+ padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+}
+.logo{
+  width: 150rpx;
+  height: 150rpx;
+}
+.title-box{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
 }
 .name{
   height: 40px;
@@ -12,13 +56,12 @@
 }
 .pro{
   display: flex;
-  width: 95%;
   position: relative;
   justify-content: space-between;
   align-items: center;
 }
 .tops{
-  width: 80%;
+  width: 65%;
   height: 15rpx;
   background-color: #ccc;
   position: absolute;
@@ -39,7 +82,19 @@
 }
 
 .rowText {
-  margin-left: 10rpx;
   font-size: 20rpx;
   color: #4c4c4c;
+}
+.site{
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  color: #ccc;
+}
+.img-box{
+  display: flex;
+}
+.img{
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
 }
