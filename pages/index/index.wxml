@@ -1,9 +1,28 @@
 <!--index.wxml-->
 <view class="index">
+<view class="UCenter-bg">
+    <image src="/images/logo.png" class="png" mode="widthFix"></image>
+    <view class="text-xl">香湾果业合作商铺
+      <text class="text-df">v1.0</text>
+    </view>
+    <view class="margin-top-sm">
+      <text>By:。。。</text>
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+<view class="search-box">
+<view class="search-left">
+<image src="../../image/search.png"></image>
+<input placeholder="请输入店名搜索"></input>
+</view>
+<view class="search-btn">搜索</view>
+</view>
 
-
-  <view class="list">
-    <view class="name"></view>
+<view class="content">
+  <navigator class="list" url="/pages/detail/detail">
+  <image src="../../image/shops.png" class="logo"></image>
+  <view class="title-box">
+    <view class="name">香湾果业</view>
     <view class="pro">
       <view class='tops'></view>
       <view class='top'>
@@ -16,8 +35,100 @@
       <view class='rowText'>{{inmoney}}元</view>
 
     </view>
-  </view>
+    <view class="site">广东省广州市天河区珠江新城1111111</view>
+    <view class="site">电话：15180655914</view>
+    
+    </view>
+  </navigator>
+
+   <navigator class="list" url="/pages/detail/detail">
+  <image src="../../image/shops.png" class="logo"></image>
+  <view class="title-box">
+    <view class="name">香湾果业</view>
+    <view class="pro">
+      <view class='tops'></view>
+      <view class='top'>
+        <view class='topBox'>
+          <view class='topLittleBOX-2'>
+            <view class='row-1' style='width:{{row1}}rpx'></view>
+          </view>
+        </view>
+      </view>
+      <view class='rowText'>{{inmoney}}元</view>
+
+    </view>
+    <view class="site">广东省广州市天河区珠江新城1111111</view>
+    <view class="site">电话：15180655914</view>
+    
+    </view>
+  </navigator>
+
+   <navigator class="list" url="/pages/detail/detail">
+  <image src="../../image/shops.png" class="logo"></image>
+  <view class="title-box">
+    <view class="name">香湾果业</view>
+    <view class="pro">
+      <view class='tops'></view>
+      <view class='top'>
+        <view class='topBox'>
+          <view class='topLittleBOX-2'>
+            <view class='row-1' style='width:{{row1}}rpx'></view>
+          </view>
+        </view>
+      </view>
+      <view class='rowText'>{{inmoney}}元</view>
+
+    </view>
+    <view class="site">广东省广州市天河区珠江新城1111111</view>
+    <view class="site">电话：15180655914</view>
+    
+    </view>
+  </navigator>
 
 
-  
+   <navigator class="list" url="/pages/detail/detail">
+  <image src="../../image/shops.png" class="logo"></image>
+  <view class="title-box">
+    <view class="name">香湾果业</view>
+    <view class="pro">
+      <view class='tops'></view>
+      <view class='top'>
+        <view class='topBox'>
+          <view class='topLittleBOX-2'>
+            <view class='row-1' style='width:{{row1}}rpx'></view>
+          </view>
+        </view>
+      </view>
+      <view class='rowText'>{{inmoney}}元</view>
+
+    </view>
+    <view class="site">广东省广州市天河区珠江新城1111111</view>
+    <view class="site">电话：15180655914</view>
+    
+    </view>
+  </navigator>
+
+
+   <navigator class="list" url="/pages/detail/detail">
+  <image src="../../image/shops.png" class="logo"></image>
+  <view class="title-box">
+    <view class="name">香湾果业</view>
+    <view class="pro">
+      <view class='tops'></view>
+      <view class='top'>
+        <view class='topBox'>
+          <view class='topLittleBOX-2'>
+            <view class='row-1' style='width:{{row1}}rpx'></view>
+          </view>
+        </view>
+      </view>
+      <view class='rowText'>{{inmoney}}元</view>
+
+    </view>
+    <view class="site">广东省广州市天河区珠江新城1111111</view>
+    <view class="site">电话：15180655914</view>
+    
+    </view>
+  </navigator>
+</view>
 </view>

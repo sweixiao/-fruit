@@ -1,0 +1,44 @@
+<!--logs.wxml-->
+<view class="detail">
+<view class="UCenter-bg">
+    <image src="/images/logo.png" class="png" mode="widthFix"></image>
+    <view class="text-xl">香湾果业合作商铺
+      <text class="text-df">v1.0</text>
+    </view>
+    <view class="margin-top-sm">
+      <text>By:。。。</text>
+    </view>
+    <image src="https://raw.githubusercontent.com/weilanwl/ColorUI/master/demo/images/wave.gif" mode="scaleToFill" class="gif-wave"></image>
+  </view>
+  <view class="detail-title">
+    <image src="../../image/mine.png"></image>
+    <view>香湾果业</view>
+  </view>
+  <view class="detail-main">
+    <view class="main-header">
+      <view class="header-left">
+        <text>月份：</text>
+        <picker mode="date" value="{{date}}" start="" end="" bindchange="changeDate">
+ <view class="tui-picker-detail">
+  {{date}}
+ </view>
+ </picker>
+      </view>
+      <view class="header-right">数据展示形式?</view>
+    </view>
+    <view class="main-header">
+      <view class="header-left">
+        <text>年份：</text>
+       <picker mode="date" value="{{date1}}" start="" end="" bindchange="changeDate1" fields="year">
+ <view class="tui-picker-detail">
+  {{date1}}
+ </view>
+ </picker>
+      </view>
+      <view class="header-right">数据展示形式?</view>
+    </view>
+    <view class="main-bottom">
+      数据对比展示形式?
+    </view>
+  </view>
+</view>
