@@ -6,9 +6,9 @@
   ],
   "tabBar": {
     "color": "#929292",
-    "selectedColor": "#00afb4",
+    "selectedColor": "#1296db",
     "borderStyle": "black",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#000000",
     "box-shadow": "0 0 4px 0",
     "list": [
       {
@@ -26,9 +26,9 @@
     ]
   },
   "window": {
-   "navigationBarBackgroundColor": "#39b54a",
+  "navigationBarBackgroundColor": "#000000",
   "navigationBarTitleText": "Color UI",
-  "navigationStyle": "custom",
+  "navigationStyle": "default",
   "navigationBarTextStyle": "white"
   },
   "style": "v2",
